@@ -1,0 +1,5 @@
+python-pyyaml (6.0.3-1) UNRELEASED; urgency=medium
+
+  * Initial Debian packaging of PyYAML 6.0.3.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 26 Nov 2026 17:00:00 +0100

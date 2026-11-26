@@ -1,0 +1,29 @@
+Source: python-pyyaml
+Section: python
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ cython3,
+ debhelper-compat (= 13),
+ dh-python,
+ libyaml-dev,
+ pybuild-plugin-pyproject,
+ python3-all-dev,
+ python3-setuptools,
+Standards-Version: 4.7.0
+Homepage: https://pyyaml.org/
+Vcs-Git: https://github.com/Vitexus/python-pyyaml.git
+Vcs-Browser: https://github.com/Vitexus/python-pyyaml
+Rules-Requires-Root: no
+
+Package: python3-yaml
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+ ${shlibs:Depends},
+Description: YAML parser and emitter for Python
+ PyYAML is a complete YAML 1.1 parser and emitter for Python, with optional
+ libyaml-backed C extensions.
+ .
+ This package provides the Python 3 library and C extension.
